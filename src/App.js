@@ -1,17 +1,16 @@
-import { signal, useSignal } from '@preact/signals-react'
+import { useSignal } from '@preact/signals-react'
 
 function App() {
-	const count = useSignal(0)
+	const ob = useSignal({ x: 0 })
 
 	return (
 		<button
 			onClick={() => {
-				count.value++
-				console.log(count.value)
+				ob.value = { x: ob.value.x + 1 }
+				console.log(ob.value)
 			}}
 		>
-			Value: {count.value}
-			{/* not working */}
+			Value: {ob.value.x}
 		</button>
 	)
 }
