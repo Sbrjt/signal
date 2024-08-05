@@ -7,7 +7,7 @@ function App() {
 		<button
 			onClick={() => {
 				count.value++
-				console.log(value)
+				console.log(count.value)
 			}}
 		>
 			Value: {count.value}
