@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/signal/static/css/main.31d6cfe0.css",
-    "main.js": "/signal/static/js/main.dc8c42e1.js",
+    "main.js": "/signal/static/js/main.c8316570.js",
     "index.html": "/signal/index.html",
-    "main.dc8c42e1.js.map": "/signal/static/js/main.dc8c42e1.js.map"
+    "main.c8316570.js.map": "/signal/static/js/main.c8316570.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.dc8c42e1.js"
+    "static/js/main.c8316570.js"
   ]
 }
